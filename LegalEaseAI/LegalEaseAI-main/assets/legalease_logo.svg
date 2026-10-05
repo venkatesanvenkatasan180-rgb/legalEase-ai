@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="700"
+     height="180"
+     viewBox="0 0 700 180">
+
+  <!-- Background -->
+  <rect width="700"
+        height="180"
+        rx="24"
+        fill="white"/>
+
+  <!-- Legal Shield -->
+  <path d="M80 25
+           L140 45
+           L140 95
+           C140 130 110 150 80 160
+           C50 150 20 130 20 95
+           L20 45 Z"
+        fill="#173B57"/>
+
+  <!-- Shield inner -->
+  <path d="M80 42
+           L122 56
+           L122 94
+           C122 117 102 134 80 143
+           C58 134 38 117 38 94
+           L38 56 Z"
+        fill="white"/>
+
+  <!-- Balance scale -->
+  <line x1="80" y1="62"
+        x2="80" y2="120"
+        stroke="#173B57"
+        stroke-width="6"/>
+
+  <line x1="55" y1="75"
+        x2="105" y2="75"
+        stroke="#173B57"
+        stroke-width="6"/>
+
+  <line x1="55" y1="75"
+        x2="45" y2="95"
+        stroke="#173B57"
+        stroke-width="4"/>
+
+  <line x1="105" y1="75"
+        x2="115" y2="95"
+        stroke="#173B57"
+        stroke-width="4"/>
+
+  <path d="M35 95 Q45 105 55 95"
+        fill="none"
+        stroke="#173B57"
+        stroke-width="4"/>
+
+  <path d="M105 95 Q115 105 125 95"
+        fill="none"
+        stroke="#173B57"
+        stroke-width="4"/>
+
+  <!-- AI Dot -->
+  <circle cx="80"
+          cy="55"
+          r="6"
+          fill="#2E9CCA"/>
+
+  <!-- Brand -->
+  <text x="175"
+        y="95"
+        font-family="Arial, sans-serif"
+        font-size="58"
+        font-weight="700"
+        fill="#173B57">
+    LegalEase
+  </text>
+
+  <!-- Tagline -->
+  <text x="180"
+        y="130"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#555555">
+    AI-Powered Legal Document Generator
+  </text>
+
+</svg>
